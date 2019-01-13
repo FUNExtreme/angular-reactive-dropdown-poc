@@ -1,0 +1,3 @@
+<select ngModel>
+  <option *ngFor="let item of items$ | async" [ngValue]="item.value">{{ item.display }}</option>
+</select>
